@@ -1,0 +1,164 @@
+Question 1)
+When setting up a MySQL database for Django, what is the default username?
+
+root
+admin
+sqladmin
+sql_root
+Question 2)
+What are the two main tags used in Django for template inheritance which allow the reuse of components and segments? Select all that apply.
+
+include
+extends
+import
+export
+Question 3)
+What command is used to create a migration in Django?
+
+manage.py makemigrations
+manage.py migrate
+django-admin makemigrations
+django-admin migrate
+Question 4)
+_________ is the class containing Django implementation for unit tests in Python.
+
+TestCase
+TestUnit
+UnitTest
+TestCaseUnit
+Question 5)
+This tool allows a developer to quickly build APIs in Django and provides other benefits, like a built-in API viewer and serializer.
+
+DRF
+MVT
+REST
+JSON
+Question 6)
+If there is a reference to an object representing a car called existing_car that was retrieved from a database, and changes are made to the object in Django, what line of code would be used to update the information in the database?
+
+existing_car.save()
+existing_car.update()
+commit(existing_car)
+save(existing_car)
+Question 7)
+When submitting a form with data to a Django endpoint, what HTTP method is used?
+
+POST
+GET
+DELETE
+CREATE
+Question 8)
+This layer between the application and the database allows the developer to more easily interact with the database while not having to explicitly write SQL code to perform CRUD operations.
+
+ORM
+MVT
+MVC
+DRF
+Question 9)
+Field class objects that are used to create Forms and ModelForms are converted into what when the form is rendered?
+
+HTML elements
+Javascript functions
+CSS styles
+Django views
+Question 10)
+When authenticated calls need to be made, what is used to pass authentication information?
+
+Bearer token
+JSON
+Payload
+Django model
+ 
+
+Question 11)
+Which of the following are relational databases that are supported by Django and require minimal configurations? Select all that apply.
+
+PostgreSQL
+MongoDB
+MariaDB
+MySQL
+Question 12)
+After bringing data in from a database, what tool allows the use of that data to dynamically create and populate pages in an application?
+
+Django Template Language
+Regular expressions
+Django Admin
+django-admin
+Question 13)
+In Django, what tool is used to add and change permissions for users and groups?
+
+Django Admin
+manage.py
+models
+templates
+Question 14)
+Model relationships can be which of the following types? Select all that apply.
+
+One-to-one
+One-to-many
+One-to-none
+Many-to-many
+Question 15)
+If the form created in the HTML/template of the application has an ID tag of commentForm, which of the following code snippets would be used to reference that form in Javascript?
+
+document.getElementById(‘commentForm’)
+document.getElement(id=‘commentForm’)
+document.get(id=‘commentForm’)
+get.documentId(‘commentForm’)
+Question 16)
+What is the correct ORM mapping that is compatible with Django QuerySets for the following SQL query? You can assume the model name is User and the object variable you created is user.
+
+SELECT * FROM user WHERE id = 1
+user = User.objects.get(id=1)
+user = User.objects.filter(id=1)
+user = User.get(id=1)
+user = User.objects.all(id=1)
+Question 17)
+When making a POST request using fetch, what function must be used to convert the JSON data into an appropriate data type?
+
+stringify
+to_string
+flatten
+post_request
+Question 18)
+When Django is set up to use MySQL as its database, it will use which port to connect to MySQL by default?
+
+8000
+3306
+8080
+443
+Question 19)
+When a new attribute is added to a model and the migrations are run, this process is equivalent to using what SQL command to manually change a database?
+
+ALTER
+CREATE
+UPDATE
+CASCADE
+Question 5)
+REST which stands for Representational State Transfer can best be described as a type of _____.
+
+architecture style for endpoints
+Django framework
+web API framework
+web service standard
+Question 6)
+In Django models, the raw() function can be used for what?
+
+Running direct SQL queries against the database.
+Inserting unformatted text to the database.
+Removing formatting from data retrieved from the database.
+Inserting an empty record in to the database.
+Question 8)
+When building a model, each attribute corresponds to what?
+
+A database field
+A dictionary key
+A view
+A form field
+Question 9)
+Select the correct implementation of the render() function inside a view for rendering a context dictionary in a template added to home.html.
+
+return render(request, context, ‘home.html’)
+return render( ‘home.html’, request, context)
+return render(context, request, ‘home.html’)
+return render(request, ‘home.html’, context)
